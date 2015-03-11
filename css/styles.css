@@ -1,0 +1,519 @@
+/*TFSS SAFE
+Styles
+Rebecca Jourard
+2015
+*/
+
+/*Overall page elements*/
+
+body {
+    margin:0;
+
+}
+
+.main {
+    font: 20px/25px Helvetica;
+    color:black;
+    text-align: center;
+    opacity: 0.7;
+    box-shadow: 30px 0 10px rgba(0,0,0,0.3), -30px 0 10px rgba(0,0,0,0.3);
+    background-attachment: fixed;
+    min-height: 250px;
+    margin: 30px 0 5% 0;
+    padding: 0% 5% 0% 5%;
+}
+
+#mainor {
+    background-image:url(../images/SAFE/flag.jpg);
+}
+
+#mainrb {
+    background-image:url(../images/SAFE/rays.jpg);
+}
+
+#maingi {
+    background-image:url(../images/SAFE/sweeping.jpg);
+}
+
+#mainj {
+    background-image:url(../images/SAFE/twisty.jpg);
+
+}
+
+#maine {
+    background-image:url(../images/SAFE/rose.jpg);
+}
+
+#maino {
+    background-image:url(../images/SAFE/soft.jpg);
+}
+
+#mainp {
+    background-image:url(../images/SAFE/sunburst.jpg);
+    background-position: 50% 50%;
+}
+
+.mainin {
+    background-color: white;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
+    min-height: 100px;
+    opacity: 0.95;
+    padding: 5% 5% 10% 5%;
+}
+
+#title {
+    background-image: url(../images/SAFE/rainbowboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100px;
+}
+
+#title h1 {
+    font: 90px/30% Helvetica;
+    color:white;
+    position:absolute;
+}
+
+
+
+/*Navbar and links*/
+
+.navbar a {
+    font: 20px/25px Helvetica;
+    text-transform: uppercase;
+    float: center;
+    display: inline-block;
+    margin-right: 20px;
+    position: relative;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    position:relative;
+    padding-right: 1%;
+}
+
+.navbar a:link {
+    text-decoration: none;
+    color: gray;
+}
+
+.navbar a:visited {
+    text-decoration: none;
+    color: gray;
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: lightgray;    
+}
+
+.navbar a:active {
+    text-decoration: none;
+    color:lightgray
+
+}
+
+#currentlink {
+    text-decoration: none;
+    color:lightgray
+
+}
+
+.navsub {
+    position: absolute;
+    visibility: hidden;
+    display: inline-block;
+    background: white;
+    padding: 5% 5% 5% 5%;
+}
+
+.navsub a {
+    font: 16px/20px Helvetica;
+}
+
+.navsub li {
+    display: block;
+    padding: 2% 2% 2% 2%;
+    float:left;
+}
+
+ul li:hover ul {
+    visibility: visible;
+    display:block;
+
+}
+
+
+
+/*homepage landing*/
+
+.landing {
+    background-image: url(../images/SAFE/rainbowboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    background-attachment: fixed;
+    padding: 6% 10% 8% 10%;
+    background-clip: text;
+}
+
+#Lourrainbow {
+    background-image:url(../images/SAFE/flag.jpg);
+    background-position: 50% 100%;
+}
+
+#Lresourcebank {
+    background-image:url(../images/SAFE/rays.jpg);
+    background-position: 50% 100%;
+}
+
+#Lgetinvolved {
+    background-image:url(../images/SAFE/sweeping.jpg);
+    background-position: 50% 50%;
+}
+
+#Ljoin {
+    background-image:url(../images/SAFE/twisty.jpg);
+    background-posit ion: 0% 100%;
+}
+
+#Levents {
+    background-image:url(../images/SAFE/rose.jpg);
+    background-position: 50% 100%;
+}
+
+#Lopportunities{
+    background-image:url(../images/SAFE/soft.jpg);
+    background-position: 50% 50%;
+}
+
+#Lprojects {
+    background-image:url(../images/SAFE/sunburst.jpg);
+    background-position: 50% 50%;
+}
+
+.landing h1 {
+    text-align: center;
+    color:white;
+    font: bold 160px/165px Helvetica;
+    margin: 0 0 0 0;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.landing h2 {
+    text-align: center;
+    color: white;
+    font: bold 40px/45px Helvetica;
+    margin: 0 0 0 0;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    }
+
+
+
+/*landing on all other pages*/
+
+.landingpage {
+    background-image: url(../images/SAFE/rainbowboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 40px;
+    background-attachment: fixed;
+    padding: 15px 80px 20px 50px;
+    background-clip: text;
+}
+
+.landingpage h1 {
+    text-align: right;
+    color:white;
+    font: bold 40px/110% Helvetica;
+    margin: 0 0 0 0;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.landingpage h2 {
+    text-align: right;
+    color: white;
+    font: bold 12px/110% Helvetica;
+    margin: 0 0 0 0;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/*Homepage elements*/
+
+#homeblurb {
+        font: 20px/25px Helvetica;
+        text-align: center;
+        padding: 3% 1% 3% 1%;
+        color: gray;
+}
+
+#social {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+
+
+/*Our Rainbow elements*/
+
+#pic {
+    border-radius: 100px;
+    width:200px;
+    height:200px;
+    margin: 2% 2% 2% 2%;
+    vertical-align: 50%;
+}
+
+#left {
+    text-align:left;
+    padding: 2% 2% 2% 2%;
+    color:black;
+    display:inline;
+}
+
+#right {
+    text-align:right;
+    padding: 2% 2% 2% 2%;
+    color:black;
+}
+
+#left #pic {
+    float:left;
+}
+
+#right #pic {
+    float:right;
+}
+
+#bio {
+    display:block;
+    margin: 0px 100px 0px 100px;
+    vertical-align: 50%;
+}
+
+#bio h1 {
+    font: bold 30px/50% Helvetica;
+}
+
+#bio h2 {
+    font: italic small-caps 24px/50% Helvetica;
+}
+
+#bio p {    
+    font: 16px Helvetica;
+}
+
+hr {
+    margin: 50px 130px 50px 130px;
+    clear:both;
+}
+
+
+
+/*Resource Bank elements*/
+
+#rb {
+    padding: 5% 10% 10% 10%;
+}
+
+#rb h1 {
+    font: bold 30px/50% Helvetica;
+    text-align: left;
+}
+
+#rb h2 {
+    font: 25px Helvetica;
+    text-align: center;
+}
+
+#rb p {
+    font: 20px Helvetica;
+    text-align: left;
+}
+
+
+
+/*Get Involved elements*/
+
+#gi {
+    padding: 5% 10% 5% 10%;
+    text-align: center;
+    font: bold 30px/100% Helvetica;
+}
+
+#gi a:link {
+    color:black;
+    text-decoration: none;
+}
+
+#gi a:active {
+    color:black;
+    text-decoration: none;
+}
+
+#gi a:visited {
+    color:black;
+    text-decoration: none;
+}
+
+
+
+/*Get Involved:Opportunities elements*/
+
+#o {
+    padding: 5% 10% 5% 10%;
+}
+
+#o h1 {
+    font: bold 30px/50% Helvetica;
+    text-align: left;
+    float:left;
+    margin-right: 2%;
+}
+
+#o h2 {
+    font: 25px Helvetica;
+    text-align: center;
+}
+
+#o p {
+    font: 20px Helvetica;
+    text-align: left;
+    clear:both;
+    padding-top: 2%
+}
+
+#o a:link {
+    color:gray;
+    text-decoration: none;
+}
+
+#o a:active {
+    color:gray;
+    text-decoration: none;
+}
+
+#o a:visited {
+    color:gray;
+    text-decoration: none;
+}
+
+
+
+/*Get Involved:Events elements*/
+
+#left #bio img {
+    float:right;
+    position:relative;
+    border-radius: 95%;
+    width: 80px;
+    height: 80px;
+    margin: 1% 1% 1% 1%;
+}
+
+#right #bio img {
+    float:left;
+    position:relative;
+    border-radius: 95%;
+    width: 80px;
+    height: 80px;
+    margin: 1% 1% 1% 1%;
+}
+
+#e {
+    padding: 5% 10% 20% 10%;
+}
+
+
+
+/*Get Involved:Projects elements*/
+
+#p {
+    padding: 5% 10% 5% 10%;
+}
+
+#p h1 {
+    font: bold 30px/50% Helvetica;
+    text-align: left;
+    float:left;
+    margin-right: 2%;
+}
+
+#p h2 {
+    font: 25px Helvetica;
+    text-align: center;
+}
+
+#p p {
+    font: 20px Helvetica;
+    text-align: left;
+    clear:both;
+    padding-top: 2%
+}
+
+#p a:link {
+    color:gray;
+    text-decoration: none;
+}
+
+#p a:active {
+    color:gray;
+    text-decoration: none;
+}
+
+#p a:visited {
+    color:gray;
+    text-decoration: none;
+}
+
+
+
+/*Get Involved:Join elements*/
+
+#j {
+    padding: 5% 10% 5% 10%;
+}
+
+#j h1 {
+    font: bold 30px/50% Helvetica;
+    text-align: left;
+    float:left;
+    margin-right: 2%;
+}
+
+#j h2 {
+    font: 25px Helvetica;
+    text-align: center;
+}
+
+#j p {
+    font: 20px Helvetica;
+    text-align: left;
+    clear:both;
+    padding-top: 2%
+}
+
+#j img {
+    float:left;
+    margin: 0 1% 0 1%;
+}
+
+#j a:link {
+    color:gray;
+    text-decoration: none;
+}
+
+#j a:active {
+    color:gray;
+    text-decoration: none;
+}
+
+#j a:visited {
+    color:gray;
+    text-decoration: none;
+}
